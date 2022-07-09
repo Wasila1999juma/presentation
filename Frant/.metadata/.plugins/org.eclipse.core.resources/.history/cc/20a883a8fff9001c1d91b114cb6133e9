@@ -1,0 +1,13 @@
+package com.example.demo.service;
+
+import com.example.demo.model.Asset;
+
+public class AssetServiceimplement implements AssetService {
+
+	@Override
+	public void saveAsset(Asset asset) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

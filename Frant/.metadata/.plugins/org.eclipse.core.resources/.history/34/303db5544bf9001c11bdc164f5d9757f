@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table >
+            <thead>
+                    <tr>
+                    	<th>sn</th>
+                    	<th>username</th>
+                        <th>password</th>
+                       	<th>Address</th>
+                        <th>regno</th>
+                        <th>role</th>
+                          <th>name</th>
+                        
+
+                    </tr>
+
+            </thead>
+            <tbody>
+            <tr th:each="user:${listuser}">
+                <td th:text="${user.username}"> </td>
+                <td th:text="${user.password}"> </td>
+                <td th:text="${user.regno}"> </td>
+           		<td th:text="${user.address}"> </td>
+                <td th:text="${user.role}"> </td>               
+                 <td th:text="${user.name}"> </td>
+                
+                
+                          
+                
+
+                <td>
+                  
+        
+
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+</body>
+</html>

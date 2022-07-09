@@ -1,0 +1,7 @@
+package com.example.demo.service;
+
+public interface AssetService {
+	void saveAsset(Asset asset):
+	
+
+}

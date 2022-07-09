@@ -1,0 +1,31 @@
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@org.springframework.stereotype.Controller
+public class Controller {
+	
+	@GetMapping("/registration")
+	public String regisration() {
+		return "REGISTRATION.FORM"; 
+	}
+	@GetMapping("/wasila")
+	public String dashbord() {
+		return "dashboard";
+	}
+
+	
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+	@GetMapping("/index")
+	public String get() {
+		return "index";
+	}
+    @GetMapping("/contact")
+    public String damage() {
+    	return "contact";
+    }	
+    }

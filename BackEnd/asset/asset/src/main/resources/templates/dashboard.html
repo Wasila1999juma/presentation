@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>accests</title><link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<body>
+	 <div class="header-top">
+		  <div class="container">
+			 <div class="top-nav">
+						<div class="logo">
+						<a href="service.html"><img src="images/suzza.png" height="84", width="84" id="section-1" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="menu">
+						<ul>
+							 <li><a href="dashboard.html">Home</a></li>
+							 <li><a href="ABOUT.html">About</a></li>
+							 <li><a href="#">Contact</a></li>
+                             <li><a href="service.html">Service</a></li>
+							 <li><a href="index.html">Logout</a></li>
+							 <div class="clearfix"></div>
+						 </ul>
+						 </div>
+						 
+						 <div class="primary">
+		<a th:href="@{/showstaff2}" class="btn btn-primary btn-sm mb-4">Add damage asset</a>
+		</div>
+	</div>
+		
+		</div>
+		
+			
+		<div class="table">
+		
+			
+			<table border="2" id="example" class="table table-striped table-responsive-md table">
+			
+				<thead>
+				<tr class="tt">
+				    <th>sn</th>
+					<th>name of asset</th>
+					<th>class</th>
+					
+					<th>discpription</th>
+					<th>send message</th>
+					
+					
+				</tr>
+				
+			</thead>
+			
+			
+			
+			
+			
+			
+			
+			<tbody>
+				<tr th:each="staff : ${liststaff}">
+				    <td th:text="${staff.staffid}"></td>
+					<td th:text="${staff.firstname}"></td>
+					<td th:text="${staff.lastname}"></td>
+					<td th:text="${staff.address}"></td>
+					<td th:text="${staff.email}"></td>
+					<td th:text="${staff.username}"></td>
+					<td th:text="${staff.password}"></td>
+					<td th:text="${staff.number}"></td>
+					<td th:text="${staff.phone}"></td>
+					<td th:text="${staff.role}"></td>
+					<td th:text="${staff.gender}"></td>
+					<td>
+			 </div>
+			 
+			 jjj
+			  <div class="clearfix"> </div>
+			  
+			 
+			
+
+		 </div>
+		 
+		
+	 </div>
+
+	 
+	 
+	 dddd
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    $(function () {
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<div id="section-1" class="section">
+			    <div id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="image/chair.png" alt="">
+			        </li>
+			        <li>
+			          <img src="images/beach2.jpg" alt="">
+			        </li>
+			        <li>
+			          <img src="images/beach3.jpg" alt="">
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    
+			    jjjjj	         
+ 
+
+
+  <script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+			begin: function() {
+			console.log('start')
+			},
+			end: function() {
+			console.log('stop')
+			}
+		});
+	});
+	</script>
+	
+	ccccccccccc
+  
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <div class="user"></div>
+<input type= "text" assetname    ="assetname" placeholder="enter your assetname">
+<input type= "text" Address    ="assettype" placeholder="enter your assettype">
+<input type= "text" location ="location"placeholder="enter your location">
+<input type= "text" discription    ="discription" placeholder="enter your discription">
+    <button type="submit" value="submit"><br></button>
+</body>
+</html>

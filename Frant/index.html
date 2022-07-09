@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>accests</title><link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<body>
+	 <div class="header-top">
+		  <div class="container">
+			 <div class="top-nav">
+						<div class="logo">
+						<a href="service.html"><img src="images/suzza.png" height="84", width="84" id="section-1" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="menu">
+						<ul>
+							 <li><a href="dashboard.html">Home</a></li>
+							 <li><a href="./js/about.html">About</a></li>
+							 <li><a href="contact.html">Contact us</a></li>
+                             <li><a href="service.html">Service</a></li>
+							 <li><a href="login.html">Login</a></li>
+							 <div class="clearfix"></div>
+						 </ul>
+						 </div>
+			 </div>
+			  <div class="clearfix"> </div>
+			
+
+		 </div>
+	 </div>
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    $(function () {
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<div id="section-1" class="section">
+			    <div id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="image/asset.jpg" alt="23">
+			        </li>
+			        
+			          
+			        
+			        
+	
+			          </div>
+			        </li>
+			      </ul>
+			    </div>	         
+ 
+
+
+  <script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+			begin: function() {
+			console.log('start')
+			},
+			end: function() {
+			console.log('stop')
+			}
+		});
+	});
+	</script>
+  
+</body>
+</html>
